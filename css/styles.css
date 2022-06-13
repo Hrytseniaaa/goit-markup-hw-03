@@ -1,0 +1,261 @@
+:root {
+    --primary-text-color: #757575;
+    --section-title-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+    --fotter-link: rgba(255, 255, 255, 0.6);
+
+
+}
+
+body {
+    background-color: #E5E5E5;
+    color:var(--primary-text-color) ;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
+}
+.title {
+    color:var(--section-title-color);}
+
+.section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+    
+        color:var(--section-title-color)
+}
+
+ul {
+    list-style: none;
+} 
+
+.link {
+    text-decoration: none;
+}
+
+/* heder */
+/* логотип */
+.header {
+    background: #FFFFFF;
+}
+
+.logo {
+
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,19;
+        color: var(--section-title-color);
+        text-decoration: none;
+}
+.logo .blue-part,
+.footer-logo .blue-part {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1, 19;
+        color: var(--white-color);
+        text-decoration: none;
+}
+
+/* site naw */
+
+.site-nav .link {
+    color: var(--section-title-color);
+    
+}
+
+.site-nav .link:hover,
+ .site-nav .link:focus {
+    color: var(--accent-color);
+ }
+
+/* посилання у шапці  */
+.site-link .link {
+color: var(--primary-text-color);
+}
+
+.site-link .link:hover,
+.site-link .link:focus {
+color:var(--accent-color);
+}
+
+/* спільне для усіх посилань шапки */
+.site-link,
+.site-nav {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em; 
+}
+/* хедер закрито */
+
+
+ 
+/* main */
+
+/* герой */
+.hero {
+    background: #2F303A;
+   
+}
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        
+     
+}
+       
+/* button */
+.hero .hero-button {
+
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+
+        background-color: #2196F3; 
+
+        cursor: pointer;    
+}
+
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    background: #188CE8;
+}
+
+
+
+ /* cпільне для банера */
+ .hero-button,
+ .hero-title {
+     color: var(--white-color);
+     letter-spacing: 0.06em;
+  
+ } 
+ /* герой закрито */
+
+ /* перша секція */
+
+ .nodisplay-title {
+     display: none;
+ }
+
+.preferences-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: var(--section-title-color)
+}
+.preferences-text {
+        font-size: 14px;
+        line-height: 1.71;
+ }
+ /* перша секція закрито */
+
+
+/* наша команда */
+
+.our-team {
+background: #F5F4FA;
+}
+
+.name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+
+}
+
+.position {
+        font-size: 14px;
+        line-height: 1.71px;
+
+}
+
+/* наша команда end */
+/* main end */
+
+
+/* footer */
+.footer {
+    background: #2F303A;
+}
+
+.address {
+    color: #ffffff;
+}
+
+.address-link .link {
+    color: var(--fotter-link);
+
+}
+.address-link .link,
+.address {
+font-size: 14px;
+line-height: 1.71px;
+
+}
+
+
+/* додатково для портфоліо */
+ 
+/* filter button */
+.filter-button {
+    font-weight: 500;
+        font-size: 16px;
+        line-height:1.62;
+        color: var(--section-title-color);
+        cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    font-family: inherit;
+
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+ /* filter button end */
+ 
+ /* приклади */
+.exampls .title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+} 
+
+.exampls .kind {
+        font-size: 16px;
+        line-height: 1.87;
+        color: var(--primary-text-color);
+}
+
+
+ .address-link .link:hover, 
+ .address-link .link:focus {
+     color: var(--accent-color);
+ }
+
+ /* правкі */
+.site-nav .current {
+    color: var(--accent-color);
+}
+.filter .current {
+background-color: var(--accent-color);
+color: var(--white-color);
+}
+
+.exampls .title {
+
+}
