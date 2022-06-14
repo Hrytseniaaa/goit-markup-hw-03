@@ -24,7 +24,10 @@ body {
     
 }
 .title {
-    color:var(--section-title-color);}
+    color:var(--section-title-color);
+    text-transform: uppercase;
+
+}
 
 .section-title {
         font-weight: 700;
@@ -156,7 +159,7 @@ color:var(--accent-color);
  /* перша секція */
 
  .nodisplay-title {
-     display: none;
+     visibility: hidden;
  }
 
 .preferences-title {
@@ -204,9 +207,9 @@ background: #F5F4FA;
     color: #ffffff;
 }
 
-.address-link .link {
+.address .link {
     color: var(--fotter-link);
-
+    font-style: normal;
 }
 .address-link .link,
 .address {
@@ -225,6 +228,7 @@ line-height: 1.71px;
         line-height:1.62;
         color: var(--section-title-color);
         cursor: pointer;
+        background: #F5F4FA;
 }
 .filter-button:hover,
 .filter-button:focus {
