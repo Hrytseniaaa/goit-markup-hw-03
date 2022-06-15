@@ -1,10 +1,14 @@
-*,
-*::before,
-*::after {
+html {
     box-sizing: border-box;
 }
 
-/* Решта коду */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 
 :root {
     --primary-text-color: #757575;
@@ -21,6 +25,7 @@ body {
     color:var(--primary-text-color) ;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    
     
 }
 .title {
@@ -48,6 +53,17 @@ ul {
 
 /* heder */
 /* логотип */
+
+.header .section-header {
+    display: inline-block;
+    border: 5px solid tomato;
+    position: absolute;
+        width: 1600px;
+        height: 80px;
+        
+        
+}
+
 .header {
     background: #FFFFFF;
 }
@@ -113,6 +129,11 @@ color:var(--accent-color);
 /* main */
 
 /* герой */
+
+.section-hero {
+
+}
+
 .hero {
     background: #2F303A;
    

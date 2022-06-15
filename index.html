@@ -7,33 +7,37 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">       
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
 
     <header class="header">
-        <a href="./index.html" class="logo"> <span class="blue-part">Web</span>Studio</a>
-       <nav class="nav">
-            <ul class="site-nav">
-                <li><a href="" class="link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="link ">Портфолио</a></li>
-                <li><a href="" class="link ">Контакты</a></li>
+       <div class="section section-header">
+            <a href="./index.html" class="logo"> <span class="blue-part">Web</span>Studio</a>
+            <nav class="nav">
+                <ul class="site-nav">
+                    <li><a href="" class="link current">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link ">Портфолио</a></li>
+                    <li><a href="" class="link ">Контакты</a></li>
             
+                </ul>
+            </nav>
+            <ul class="site-link">
+                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
-       </nav>
-        <ul class="site-link">
-            <li><a href="mailto:info@devstudio.com"  class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
+       </div>
     </header>
 
     <main>
         <!--верхній баннер-->
         <section class="hero">
-            <h1 class="hero-title title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-button">Заказать услугу</button>
-        
+         <div class="sehtion section-hero">
+                <h1 class="hero-title title">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="hero-button">Заказать услугу</button>
+         </div>
         </section>
 
         <!--переваги компанії+невиимий заголовок-->
@@ -70,9 +74,9 @@
             <h2 class="section-title title">Чем мы занимаемся</h2>
             <ul>
 
-                <li><img src="./images/бр(4).jpg" alt="бекенд розработка" width="370"></li>
-                <li><img src="./images/фр(1).jpg" alt="фронтенд розработка" width="370"></li>
-                <li><img src="./images/вд.jpg" alt="веб дизайн" width="370"></li>
+                <li><img src="./images/bd(4).jpg" alt="бекенд розработка" width="370"></li>
+                <li><img src="./images/fd(1).jpg" alt="фронтенд розработка" width="370"></li>
+                <li><img src="./images/wd.jpg" alt="веб дизайн" width="370"></li>
 
             </ul>
         </section>
@@ -82,24 +86,24 @@
             <h2 class="section-title title">Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./images/було-img(1).jpg" alt="Игорь Демьяненко" width="270">
+                    <img src="./images/was-img(1).jpg" alt="Игорь Демьяненко" width="270">
                     <h3 class="name title" >Игорь Демьяненко</h3>
                     <p class="position" lang="en">Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/було-img-7(1).jpg" alt="Ольга Репина" width="270">
+                    <img src="./images/was-img-7(1).jpg" alt="Ольга Репина" width="270">
                     <h3 class="name title" >Ольга Репина</h3>
                     <p class="position" lang="en">Frontend Developer</p>
                     
                 </li>
                 <li>
-                    <img src="./images/було-mg-8(1).jpg" alt="Николай Тарасов" width="270">
+                    <img src="./images/was-mg-8(1).jpg" alt="Николай Тарасов" width="270">
                     <h3 class="name title" >Николай Тарасов</h3>
                     <p class="position" lang="en">Marketing</p>
 
                 </li>
                 <li>
-                    <img src="./images/було-img-9(1).jpg" alt="Михаил Ермаков" width="270">
+                    <img src="./images/was-img-9(1).jpg" alt="Михаил Ермаков" width="270">
                     <h3 class="name title" >Михаил Ермаков</h3>
                     <p class="position" lang="en">UI Designer </p>
                 </li>
