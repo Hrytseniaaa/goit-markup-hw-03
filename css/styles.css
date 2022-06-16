@@ -55,11 +55,10 @@ ul {
 /* логотип */
 
 .header .section-header {
-    display: inline-block;
-    border: 5px solid tomato;
-    position: absolute;
-        width: 1600px;
-        height: 80px;
+    width: 50
+    ;
+  display: inline-block;
+  border: 2px sold tomato;
         
         
 }
