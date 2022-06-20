@@ -103,13 +103,14 @@ ul {
 .container-header {
 
     display: flex;
-      border-bottom: 1px solid #ECECEC;
+      
       align-items: center;
     
 }
 
 header {
     background: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
 
 }
 
