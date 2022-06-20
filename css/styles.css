@@ -104,17 +104,18 @@ ul {
 
     display: flex;
       border-bottom: 1px solid #ECECEC;
+      align-items: center;
     
 }
 
-.header {
+header {
     background: #FFFFFF;
 
 }
 
 .logo {
     margin-right: 93px;
-    padding-top:24px ;
+    
    
 
     font-family: 'Raleway', sans-serif;
@@ -169,6 +170,8 @@ ul {
 
 
 
+
+
 /* посилання у шапці  */
 .site-link .link {
 color: var(--primary-text-color);
@@ -179,14 +182,18 @@ color: var(--primary-text-color);
 color:var(--accent-color);
 } 
 
-.connection {
-    margin-left: auto;
+
+
+
+.site-link {
+    margin-left: 331px;;
+
 }
 
 /* спільне для усіх посилань шапки */
 .site-link,
 .site-nav {
-    font-family: 'Roboto';
+    
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -205,13 +212,11 @@ color:var(--accent-color);
 
 .hero .container{
 
- margin-bottom: 94px;
-
 }
 
 .hero {
     padding-top: 200px;
-    padding-bottom: 210px;
+    padding-bottom: 200px;
     text-align: center;
    background: #2F303A;
 }
@@ -321,7 +326,7 @@ color:var(--accent-color);
  /* -----------WORKS--------- */
 
 .works {
- margin-bottom: 94px;
+ padding-bottom: 94px;
 }
 
 
@@ -375,14 +380,18 @@ color:var(--accent-color);
 
 .our-team {
 background: #F5F4FA;
-
 }
+
+.co-worker-info {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 
 .name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.17;
-        margin-top: 30px;
         margin-bottom: 10px;
         text-align: center;
 
@@ -390,8 +399,7 @@ background: #F5F4FA;
 
 .position {
         font-size: 16px;
-        line-height: 1.17px;
-        margin-bottom: 30px;
+        line-height: 1.17;
         text-align: center;
 
 }
