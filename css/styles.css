@@ -471,24 +471,26 @@ color: var(--fotter-link);
 
  .exampl-wrap {
     border: 1px solid #EEEEEE;
+    border-top: 0;
+    padding: 20px 24px;
  }
 
 
 .exampls .title {
-    padding: 0 0 0 24px;
+   
     font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        margin-top: 20px;
+        
 } 
 
 .exampls .kind {
-    padding: 0 0 0 24px;
+   
         font-size: 16px;
         line-height: 1.87;
         color: var(--primary-text-color);
-        margin-bottom: 20px;
+       
         margin-top: 4px;
 }
 
