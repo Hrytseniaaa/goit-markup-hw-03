@@ -93,6 +93,7 @@ ul {
 .section {
 
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* heder */
@@ -273,6 +274,10 @@ color:var(--accent-color);
 
  /* перша секція */
 
+ .section-preferences{
+     padding-bottom: 0;
+ }
+
 .preferences:not(:last-child) {
     margin-right: 30px;
 }
@@ -366,19 +371,15 @@ color:var(--accent-color);
  display: flex;
 }
 
-.team-container {
 
-   padding-bottom: 94px;
-
-}
 
 .our-team {
 background: #F5F4FA;
 }
 
 .co-worker-info {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -437,6 +438,8 @@ background: #F5F4FA;
 .address-link .link,
 .address {
 font-size: 14px;
+line-height: 1.71;
+
 
 
 }
@@ -446,16 +449,15 @@ font-size: 14px;
  
 /* filter button */
 
-.portfolio-cnt {
-   margin-bottom: 94px;
 
-}
+
 
 .filter {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     flex-basis: calc((100%-30px)3);
+    padding-bottom: 50px;
 }
 
 .card-set {
@@ -473,7 +475,7 @@ font-size: 14px;
     padding: 6px 22px;
     border: 0;
     border-radius: 4px;
-    margin-bottom: 50px;
+    
 
 
     font-weight: 500;
